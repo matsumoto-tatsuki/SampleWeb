@@ -1,0 +1,28 @@
+body {
+    background-image: url(../images/bg_Argyle.jpg);
+}
+
+.center{
+    background-color: white;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text_center {
+    text-align: center;
+}
+
+.square{
+    margin: auto;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

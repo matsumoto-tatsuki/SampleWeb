@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form2.css">
+</head>
+
+<body>
+    <h2 class="text_center">アンケートフォーム</h2>
+    <div class="center">
+        Axizの研修をご利用いただき、誠にありがとうございます。<br>
+        以下の内容の記入及び送信をして頂けると幸いです。<br>
+        
+        <form>
+            <p>会社名
+                <span>必須</span><br>
+                <input type="text" placeholder="例)株式会社テクノコア" class="line square_long"><br>
+            </p>
+
+            <p>名前
+                <span>必須</span><br>
+                <input type="text" placeholder="例)手久野 興亜" class="line square_long"><br>
+            </p>
+
+            <p>メールアドレス
+                <span>必須</span><br>
+                <input type="text" placeholder="例)example@axiz.co.jp" class="line square_long"><br>
+            </p>
+
+            <p>年齢<br>
+                <input type="text" class="line square_short"><br>
+            </p>
+
+            <p>受講コース<br>
+                <label><input type="radio" name="corse">Java</label>
+                <label><input type="radio" name="corse">インフラ</label>
+            </p>
+
+            <p>会場<br>
+                <select class="square_long">
+                    <option>日本橋A教室</option>
+                    <option>日本橋B教室</option>
+                    <option>日本橋C教室</option>
+                </select>
+            </p>
+
+            <p>詳しく学びたい内容(複数回答可)<br>
+                <label><input type="checkbox">ビジネスマナー</label><br>
+                <label><input type="checkbox">HTML/CSS</label><br>
+                <label><input type="checkbox">JavaScript</label><br>
+                <label><input type="checkbox">Java</label><br>
+                <label><input type="checkbox">データベース</label><br>
+                <label><input type="checkbox">Linux</label>
+            </p>
+
+            <p>ご意見<br>
+                <textarea class="t_area" rows="5">自由に記入ください</textarea><br>
+            </p>
+
+            <button type="submit" value="送信">送信</button>
+            
+        </form>
+    </div>
+    <p class="last_text">Copyright(C) Axiz</p>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body {
+  background-image: url(../images/bg_Argyle.jpg);
+}
+
+.center {
+    text-align: center;
+}
+
+/* curry.html */
+.line {
+    display: block;
+    margin:auto;
+
+    border: 10px double pink;
+}
+
+table{
+    border-color: red;
+    background-color:bisque
+}
+
+#te_red {
+    color: red;
+}
+
+span{
+    font-weight: bold;
+}
+
+
+
+
+.image-text img {
+    float: left;
+    margin-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}

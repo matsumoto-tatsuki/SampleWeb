@@ -1,0 +1,47 @@
+body {
+    background-color:aqua;
+}
+
+.center{
+    background-color: white;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 10px;
+    border:1px solid black;
+    padding-left: 2%;
+}
+
+.line{
+    border-radius: 10px;
+    border:1px solid black;
+}
+
+.square_long{
+    width:80%;
+    height:auto;
+}
+.square_short{
+    width:5%;
+    height:auto;
+}
+
+.text_center {
+    text-align: center;
+    border-bottom:2px solid black
+}
+
+span {
+    border-radius: 10px;
+    background-color: red;
+    font-size: small;
+    color: white;
+}
+
+.t_area{
+    width:80%;
+}
+
+.last_text{
+    border-top:2px solid black;
+    text-align: center;
+}
