@@ -49,15 +49,3 @@ span{
     margin-bottom: 5%;
 }
 
-.image-wrapper img:last-of-type {
-    display: none;
-  }
-  
-  .image-wrapper:hover img:first-of-type {
-    display: none;
-  }
-  
-  .image-wrapper:hover img:last-of-type {
-    display: block;
-
-  }
