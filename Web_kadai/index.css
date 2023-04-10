@@ -1,7 +1,5 @@
-
-
-.index{
-    display: flex;                
+.index {
+    display: flex;
     justify-content: space-between;
     font-size: 20px;
     padding-left: 20px;
@@ -15,32 +13,33 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.image-size{
+.image-size {
     max-width: 200px;
     width: 100%;
     height: auto;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-body{
+body {
     margin-left: 20%;
     margin-right: 20%;
     background-color: rgb(136, 252, 136);
 }
 
 
-span{
+span {
     font-size: smaller;
 }
 
-.tab{
+.tab {
     font-size: 18px;
     padding: 10px;
 }
-.tab_all{
+
+.tab_all {
     background-color: whitesmoke;
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -48,4 +47,3 @@ span{
     padding-bottom: 10px;
     margin-bottom: 5%;
 }
-
