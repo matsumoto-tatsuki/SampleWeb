@@ -1,0 +1,52 @@
+.index{
+    display: flex;                
+    justify-content: space-around;
+    font-size: 20px;
+
+    background-color: white;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image-size{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(136, 252, 136);
+}
+
+.image{
+    display: flex;                
+    justify-content: space-around;
+
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+span{
+    font-size: smaller;
+}
+
+.tab{
+    font-size: 18px;
+    padding: 10px;
+}
+.tab_all{
+    background-color: whitesmoke;
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+}
